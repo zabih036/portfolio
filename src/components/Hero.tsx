@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
               </button>
               
               <a
-                href="../src/assets/resume/resume.pdf"
+                href="./resume/resume.pdf"
                 download
                 className="btn-secondary inline-flex items-center justify-center"
               >
@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
               <div className="w-80 h-80 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center shadow-2xl overflow-hidden">
                 <div className="w-72 h-72 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center overflow-hidden">
                   <img
-                    src="../src/assets/images/mypic.jpg" // 🔹 Replace with your actual image path
+                    src="./images/mypic.jpg" // 🔹 Replace with your actual image path
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full"
                   />

@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       title: 'Book store',
       description: 'online book store with modern UI .',
       longDescription: 'A comprehensive platform built with React, Node.js, and MongoDB. Features include user authentication, product management, and admin dashboard.',
-      image: '../src/assets/images/book.jpg',
+      image: './images/book.jpg',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
       githubUrl: 'https://github.com/zabih036/react-books-store.git',
       liveUrl: 'https://github.com/zabih036/react-books-store.git',
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
       title: 'Milad Steel Mill',
       description: 'Milad steel mill production app manages daily production and accounting of company.',
       longDescription: 'A modern production management application with real-time collaboration features, and accounting management capabilities.',
-      image: '../src/assets/images/milad.png',
+      image: './images/milad.png',
       technologies: ['.Net Core', 'JQuery', 'Bootstrap', 'SQL Server'],
       githubUrl: 'https://github.com/zabih036/ZiaSaeediDb.git',
       liveUrl: 'https://github.com/zabih036/ZiaSaeediDb.git',
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
       title: 'Accounting App',
       description: 'A modern accounting system for managing finances, assets, and transactions efficiently.',
       longDescription: 'A comprehensive accounting application designed for businesses to manage financial records, track income and expenses, handle journal entries, and generate real-time financial reports. Built with scalability, accuracy, and security in mind.',
-      image: '../src/assets/images/accounting.png', // Replace with actual image URL or path
+      image: './images/accounting.png', // Replace with actual image URL or path
       technologies: ['.NET Core', 'SQL Server', 'Bootstrap', 'jQuery', 'DataTables'],
       githubUrl: 'https://github.com/zabihullahhamdard/accounting-app',
       liveUrl: 'https://accounting-app-demo.com', // Optional if not hosted
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
       title: 'Etimad Steel Mill Production System',
       description: 'Comprehensive production management system for steel manufacturing and operations.',
       longDescription: 'An integrated ERP solution developed for Etimad Steel Mill to manage the full production lifecycle — from raw material intake to finished goods. The system includes modules for production tracking, quality control, maintenance scheduling, and analytics for operational efficiency.',
-      image: '../src/assets/images/etimad.png', // Replace with actual project image path
+      image: './images/etimad.png', // Replace with actual project image path
       technologies: ['Frappe', 'ERPNext', 'Python', 'MariaDB', 'Bootstrap'],
       githubUrl: 'https://github.com/zabih036/etimad-steelmill',
       liveUrl: 'https://etimad-steelmill-demo.com', // Optional if hosted locally
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
   title: 'Almadina Store Management System',
   description: 'Retail management system for clothing and footwear sales.',
   longDescription: 'A complete store management application designed for Almadina Store to handle product inventory, sales, and customer billing for clothing and shoes. It includes stock tracking, category-wise item listings, barcode support, and sales reporting to improve retail efficiency.',
-  image: '../src/assets/images/almadina.jpg', // Replace with actual image path, e.g., '/assets/images/almadina-store.jpg'
+  image: './images/almadina.jpg', // Replace with actual image path, e.g., '/assets/images/almadina-store.jpg'
   technologies: ['.NET Core', 'SQL Server', 'Bootstrap', 'jQuery', 'DataTables'],
   githubUrl: 'https://github.com/zabihullahhamdard/almadina-store',
   liveUrl: 'https://almadina-store-demo.com',
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
   title: 'Mirbat Zada Shampoo Production System',
   description: 'A production and inventory management system for Mirbat Zada Shampoo Company.',
   longDescription: 'A custom web application built for Mirbat Zada Shampoo Production Company to manage daily production, raw material usage, product packaging, and stock tracking. The system helps monitor batch outputs, quality control data, and sales dispatch records to streamline manufacturing operations.',
-  image: '../src/assets/images/mirbat.jpg', // Replace with actual image path, e.g., '/assets/images/mirbat-zada.jpg'
+  image: './images/mirbat.jpg', // Replace with actual image path, e.g., '/assets/images/mirbat-zada.jpg'
   technologies: ['.NET Core', 'SQL Server', 'Bootstrap', 'jQuery', 'DataTables'],
   githubUrl: 'https://github.com/zabihullahhamdard/mirbat-zada-production',
   liveUrl: 'https://mirbat-zada-demo.com',
